@@ -1,0 +1,27 @@
+# Python virtual environment — large, machine-specific, not needed on GitHub
+backend/venv/
+
+# Python cache files — auto-generated, not needed
+backend/__pycache__/
+*.pyc
+*.pyo
+
+# React dependencies — huge folder, recreated with npm install
+frontend/node_modules/
+
+# React build output — not needed in source repo
+frontend/build/
+
+# Environment/secret files — never commit passwords
+.env
+*.env
+
+# VS Code settings — personal preference, not project code
+.vscode/
+
+# Windows system files
+Thumbs.db
+desktop.ini
+
+# PostgreSQL
+*.sql
